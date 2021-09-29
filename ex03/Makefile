@@ -1,7 +1,7 @@
-NAME =		brainz
+NAME =		violence
 CC =		clang++
 CPPFLAGS =	-Wall -Wextra -Werror -c
-SRCS =		main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS =		main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 OBJS =		$(SRCS:.cpp=.o)
 OBJ_PATH = 	./obj
 

@@ -1,7 +1,7 @@
-NAME =		brainz
+NAME =		moar_brainz
 CC =		clang++
 CPPFLAGS =	-Wall -Wextra -Werror -c
-SRCS =		main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS =		main.cpp Zombie.cpp ZombieHorde.cpp
 OBJS =		$(SRCS:.cpp=.o)
 OBJ_PATH = 	./obj
 
