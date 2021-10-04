@@ -1,4 +1,4 @@
-NAME =		sed_is_for_losers
+NAME =		replace
 CC =		clang++
 CPPFLAGS =	-Wall -Wextra -Werror -c
 SRCS =		main.cpp

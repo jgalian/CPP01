@@ -15,7 +15,7 @@ class Karen
 	public:
 		Karen();
 		~Karen();
-		void	complain(int level);
+		void	filter(std::string level);
 };
 
 #endif
