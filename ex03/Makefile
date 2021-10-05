@@ -1,6 +1,6 @@
 NAME =		violence
 CC =		clang++
-CPPFLAGS =	-Wall -Wextra -Werror -c
+CPPFLAGS =	-Wall -Wextra -Werror -c -std=c++98
 SRCS =		main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 OBJS =		$(SRCS:.cpp=.o)
 OBJ_PATH = 	./obj

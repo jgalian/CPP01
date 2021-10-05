@@ -1,6 +1,6 @@
 NAME =		brainz
 CC =		clang++
-CPPFLAGS =	-Wall -Wextra -Werror -c
+CPPFLAGS =	-Wall -Wextra -Werror -c -sd=c++98
 SRCS =		main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
 OBJS =		$(SRCS:.cpp=.o)
 OBJ_PATH = 	./obj

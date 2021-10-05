@@ -4,7 +4,6 @@ int	main()
 {
 	Zombie	*melon;
 	Zombie	*sandia;
-	Zombie	*pepino;
 
 	std::cout << "--- Zombies en Heap memory ---" << std::endl;
 	melon = newZombie("Cabeza Melon");

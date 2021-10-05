@@ -1,6 +1,6 @@
 NAME =		karen
 CC =		clang++
-CPPFLAGS =	-Wall -Wextra -Werror -c
+CPPFLAGS =	-Wall -Wextra -Werror -c -std=c++98
 SRCS =		main.cpp Karen.cpp
 OBJS =		$(SRCS:.cpp=.o)
 OBJ_PATH = 	./obj
