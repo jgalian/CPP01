@@ -3,7 +3,7 @@
 int	main()
 {
 	Zombie *zombies;
-	int	n_zombies = 3;
+	int	n_zombies = 21;
 	unsigned short	i = 0;
 
 	zombies = zombieHorde(n_zombies, "malo");

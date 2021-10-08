@@ -4,6 +4,7 @@ Zombie* zombieHorde( int N, std::string name )
 {
 	Zombie 			*ret;
 	unsigned short	i;
+	unsigned short	j;
 	std::string		number;
 
 	if (N < 0)
@@ -16,7 +17,9 @@ Zombie* zombieHorde( int N, std::string name )
 	{
 		number = std::to_string(i);
 		ret[i - 1].setName(name.append(number));
-		name.pop_back();
+		j = number.length();
+		while (j-- > 0)
+			name.pop_back();
 	}
 	return (ret);
 }
