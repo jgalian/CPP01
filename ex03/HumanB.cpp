@@ -18,7 +18,7 @@ void	HumanB::attack(void)
 		return ;
 	}
 	std::cout << this->_name
-			<< " attacks wih his "
+			<< " attacks with his "
 			<< this->_weapon->getType() << std::endl;
 }
 
