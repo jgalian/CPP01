@@ -11,6 +11,11 @@ int main(int argc, char *argv[])
 		std::cout << "Incorrect number of arguments" << std::endl;
 		return (-1);
 	}
+	if (!strcmp(argv[2], "") || !strcmp(argv[3], ""))
+		{
+		std::cout << "Strings passed to the program should have content" << std::endl;
+		return (-1);
+	}
 	std::ifstream file(argv[1]);
 	if (!file.is_open())
 	{
